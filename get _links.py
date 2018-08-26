@@ -38,7 +38,7 @@ class Parser:
         except NoElement:
             pass
     def parser_quit(self):
-        time.sleep(2)
+        time.sleep(5)
         self.driver.quit()
 
 def worker():
